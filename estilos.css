@@ -1,0 +1,102 @@
+/*
+ * estilos.css
+ *
+ * Ignacio Campos Valenzuela 00000181153
+ */
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 120px;
+    width: 100%;
+    border: 1px solid Silver;
+    text-align: center;
+    background: Blue url("background.png"); 
+}
+
+h1 {
+    color: #00ffff;
+    text-align: center;
+}
+
+nav {
+    position: absolute;
+    top: 122px;
+    left: 0;
+    width: 150px;
+    height: calc(100% - 124px);
+    border: 1px solid Silver;
+    background: Beige; 
+}
+
+main {
+    font-family: cursive;
+    font-size: 90%;
+    position: absolute;
+    height: calc(100% - 154px);
+    width: calc(100% - 154px);
+    top: 122px;
+    left: 152px;
+}
+
+body {
+	background: LightGrey; 
+}
+
+img#logo {
+    float: left;
+}
+
+a#email {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width:150px;
+}
+
+nav li {
+    position: relative;
+    width:150px;
+    float:left;
+    clear:left;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    padding: 0 10px;
+    width: 130px;    
+    border-bottom: 1px solid Silver;
+}
+
+nav a:link {
+    color: Blue; 
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+main h1, h3{
+    text-align: center;
+}
+
+table td {
+	background-color: LightBlue;
+	color: black;
+}
+
+footer {
+    	font-family: fantasy;
+  	position: absolute;
+	bottom: 0;
+  	width: 100%;
+  	height: 40px;
+  	color: black;
+	text-align: center;
+}
